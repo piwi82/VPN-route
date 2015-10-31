@@ -2,7 +2,7 @@
 
 The default settings on a VPN client sends all traffic over the VPN connection, which "disables" your Internet connection. 
 
-![Windows VPN default gateway](/VPN-route/Windows/vpn-default_gateway_windows.png)
+![Windows VPN default gateway](https://github.com/piwi82/VPN-route/blob/master/Windows/vpn-default-gateway-windows.png)
 
 It is possible to automatically create the required routing rules each time a VPN connection is established, and thus preserve your local internet access.
 
