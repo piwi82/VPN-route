@@ -35,5 +35,5 @@ switch ($ia){
 	#"[VPN connection name]" {	NewNetRoute {	[Destination network 1, Destination network 2, ...]	}	}
 	# Examples :
 	"VPN1" {	NewNetRoute "192.168.42.0/24"	}
-	"VPN2" {	NewNetRoute "192.168.42.0/24","192.168.108.0/24","172.25.42.0/24	}
+	"VPN2" {	NewNetRoute "192.168.42.0/24","192.168.108.0/24","172.25.42.0/24"	}
 }
