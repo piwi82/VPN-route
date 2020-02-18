@@ -8,5 +8,3 @@ It is possible to automatically create the required routing rules each time a VP
 
 Mac, Linux and Unix like OSes uses a very simple script stored in `/etc/ppp/ip-up`.
 Windows can do something similar using a [PowerShell script and the Task Scheduler](https://github.com/piwi82/VPN-route/blob/master/Windows/vpn-route.ps1).
-
-This readme will be updated with a complete guide, and special tips for Synology NASes.
