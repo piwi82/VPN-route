@@ -8,6 +8,11 @@
 # Task scheduler configuration
 # ----------------------------
 #
+#   General
+#     Check "Run whether user is logged in or not"
+#     Check "Do not store password. The task will only have access to local computer resources"
+#     Check "Run with highest privileges" (not tested without)
+#
 #   Trigger on event
 #     Log      : Microsoft-Windows-NetworkProfile/Operational
 #     Source   : NetworkProfile
