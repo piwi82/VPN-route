@@ -2,8 +2,8 @@
 # Known bugs
 # ----------
 #
-#   The interface name in the Event viewer message is not updated when the interface has been renamed
-#
+#   The interface name in the Event viewer message is not updated when the interface has been renamed.
+#   If a "Dns suffix for this connection" is provided, this value will override the interface name in the event message.
 #
 # Task scheduler configuration
 # ----------------------------
