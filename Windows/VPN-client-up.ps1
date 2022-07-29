@@ -35,7 +35,7 @@ switch ($interfaceAlias){
 	#	Add-DnsClientNrptRule -Namespace "[Remote domain]" -NameServers "[Remote DNS server IP address]"
 	#}
 	"VPN" {
-        NewNetRoute "192.168.0.0/24" "10.0.0.0/16"
-        Add-DnsClientNrptRule -Namespace ".domain.tld" -NameServers "192.168.0.1"
-    }
+		NewNetRoute "192.168.0.0/24" "10.0.0.0/16"
+		Add-DnsClientNrptRule -Namespace ".domain.tld" -NameServers "192.168.0.1"
+	}
 }
