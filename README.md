@@ -1,4 +1,10 @@
-# VPN route
+# ☠️ VPN route
+
+The contents of this repository is **obsolete** as PowerShell commands can now do the same.
+
+Take a look at the [Add-VpnConnectionRoute](https://learn.microsoft.com/en-us/powershell/module/vpnclient/add-vpnconnectionroute) PowerShell command to add routes to VPN connections, and use `(Get-VpnConnection).Routes` to view configured routes.
+
+---
 
 The default settings on a VPN client sends all traffic over the VPN connection, which "disables" your Internet access.
 
